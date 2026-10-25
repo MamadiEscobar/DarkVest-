@@ -1,0 +1,15 @@
+{
+  "id": "/darkvest",
+  "name": "Darkvest",
+  "short_name": "Darkvest",
+  "description": "Gestão financeira pessoal",
+  "start_url": "darkvest.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0D1220",
+  "theme_color": "#0D1220",
+  "icons": [
+    { "src": "darkvest-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "darkvest-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

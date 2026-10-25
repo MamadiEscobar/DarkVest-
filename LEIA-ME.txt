@@ -1,0 +1,49 @@
+﻿DARKVEST - Gestão financeira pessoal (versão local)
+===================================================
+Criado por Raul Fernandes.
+
+Os teus dados financeiros ficam cifrados neste computador, protegidos por um PIN e
+pelo código da tua app autenticadora. Nada é enviado para a internet.
+
+
+FORMA 1 - A MAIS SIMPLES (só abrir o ficheiro)
+----------------------------------------------
+1. Põe esta pasta num local fixo, por exemplo Documentos\Darkvest.
+2. Botão direito em "darkvest.html" > Abrir com > Brave.
+3. Cria o cofre (PIN, app autenticadora, códigos de recuperação).
+4. Para abrir mais depressa: arrasta o separador para a barra de marcadores, ou cria
+   um atalho no ambiente de trabalho para o ficheiro.
+
+Nota: nesta forma o Brave não permite "Instalar como app" (só funciona com endereços
+http). Usa sempre o mesmo browser: os dados ficam guardados no browser onde criaste o
+cofre.
+
+
+FORMA 2 - COMO APP, COM O SERVIDOR DO PASSWORD DIAL (recomendado se já o usas)
+-------------------------------------------------------------------------------
+1. Fecha a janela preta do Password Dial.
+2. Copia TODOS os ficheiros desta pasta para a pasta "app" do Password Dial
+   (Documents\Password-Dial-v1.3\Password Dial\app). Se o Windows perguntar,
+   podes substituir: os ficheiros com o mesmo nome (fontes, qrcode.js) são iguais.
+   Não toques na pasta "dados".
+3. Abre de novo o "iniciar-password-dial.bat".
+4. No Brave, abre: http://localhost:8080/darkvest.html
+5. Menu > Guardar e partilhar > Instalar página como app.
+   O Darkvest fica com ícone próprio, separado do Password Dial.
+
+O Darkvest e o Password Dial são cofres diferentes: cada um tem o seu PIN e a sua
+entrada na app autenticadora.
+
+
+CÓPIAS DE SEGURANÇA
+-------------------
+Os dados ficam guardados no browser. Faz de vez em quando:
+Definições > Cópia de segurança > Copiar texto, e guarda esse texto (por exemplo num
+ficheiro numa pen). Para restaurar: no ecrã inicial, "Restaurar de uma cópia de
+segurança".
+
+
+MODO DE TESTE (temporário)
+--------------------------
+O botão "Entrar em modo de teste (sem segurança)" abre um cofre de teste à parte, sem
+PIN nem código, e guardado SEM cifra. Usa-o só com valores de exemplo.
